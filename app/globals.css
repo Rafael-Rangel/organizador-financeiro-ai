@@ -175,10 +175,9 @@
 
     .novoestilo {
     display: flex;
-    gap: 10px;           /* Aumentar espaçamento */
-    justify-content: space-between;  /* Distribuir elementos */
-    align-items: center;  /* Centralizar verticalmente */
-    flex-wrap: wrap;      /* Quebrar linha se necessário */
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
   @keyframes float {
