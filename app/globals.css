@@ -170,6 +170,7 @@
   .floating-button {
     @apply fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white rounded-full flex items-center justify-center shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300;
     animation: float 3s ease-in-out infinite;
+   z-index: 9999;
   }
 
   @keyframes float {
