@@ -37,7 +37,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full max-w-md">
+    <div>
       {/* Chat Container */}
       <div className="chat-container">
         {/* Header */}
