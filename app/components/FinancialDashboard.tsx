@@ -183,7 +183,7 @@ export default function FinancialDashboard({ transactions }: FinancialDashboardP
 
       {/* Filtros Compactos */}
       <div className="dashboard-card">
-        <div className="flex gap-2">
+        <div className="novoestilo">
                      <select
              value={selectedCategory}
              onChange={(e) => setSelectedCategory(e.target.value)}
